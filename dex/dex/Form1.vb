@@ -36,5 +36,6 @@ Public Class Form1
         outFile.Write("|")
         outFile.WriteLine(PictureBox1.ImageLocation)
         outFile.Close()
+        MsgBox("Saved", 0, "a")
     End Sub
 End Class
