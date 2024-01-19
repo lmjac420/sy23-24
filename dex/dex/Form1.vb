@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports System.Security.Cryptography
 Imports System.Web
 
 Public Class Form1
@@ -12,6 +13,8 @@ Public Class Form1
         field4.Text = ""
         field5.Text = ""
         PictureBox1.Image = Nothing
+        current = count
+        count = count + 1
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
@@ -103,5 +106,9 @@ Public Class Form1
             current = count - 1
             ShowRecord(current)
         End If
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+
     End Sub
 End Class

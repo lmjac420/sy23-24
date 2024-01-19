@@ -60,9 +60,39 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -73,5 +103,8 @@
   </metadata>
   <metadata name="OpenFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>247, 17</value>
+  </metadata>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>389, 17</value>
   </metadata>
 </root>
